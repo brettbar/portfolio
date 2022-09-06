@@ -45,6 +45,8 @@ const isSelected = (index: number): string => index === props.selectedPage ? 'se
     margin: 1rem;
     border-radius: 5px;
     border: 2px solid #ffa150;
+    min-width: 70px;
+    text-align: center;
 
     text-decoration: none;
     color: white;

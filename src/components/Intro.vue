@@ -4,7 +4,6 @@
 
   <section>
     <img src="me.png" />
-
     <div>
       <h1>hi, i'm brett -
         welcome to my portfolio site
@@ -47,13 +46,23 @@ section {
   border-radius: 5px;
   width: max-content;
 
+  animation: fadein 1s;
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
   img {
     border-radius: 50%;
     margin: 4rem;
     width: 50%;
   }
-
-
 
   div {
     border: 2px solid #ffa150;
@@ -68,6 +77,8 @@ section {
     }
 
     ul {
+      list-style: none;
+
       li {
         span {
           font-weight: bold;
