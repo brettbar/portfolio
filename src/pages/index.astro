@@ -1,8 +1,21 @@
 ---
 import HomeLayout from '../layouts/main.astro';
 import Intro from '../components/Intro.vue';
+import FooterVue from '../components/Footer.vue';
 ---
 
 <HomeLayout currPage={0}>
   <Intro />
+  <FooterVue class="footer" />
 </HomeLayout>
+
+<style lang="scss" scoped>
+.footer {
+  position: fixed; 
+  bottom: 0;
+  left: calc(50vw - 325px);
+  right: 0;
+  height: 35px;
+
+}
+</style>

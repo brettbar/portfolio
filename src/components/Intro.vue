@@ -1,7 +1,7 @@
-<script setup></script>
+<script setup lang="ts">
+</script>
 
 <template>
-
   <section>
     <img src="me.png" />
     <div>
@@ -11,6 +11,10 @@
       <h2>What you'll find here:</h2>
       <ul>
         <li>
+          <span>Home</span>
+          - This page: Intro and how to contact me
+        </li>
+        <li>
           <span>Experience</span>
           - A brief overview of my professional experience and education
         </li>
@@ -19,16 +23,15 @@
           - What I've worked on in the past, and what I'm up to lately
         </li>
         <li>
+          <span>Skills</span>
+          - What I've learned and can bring to the table
+        </li>
+        <li>
           <span>About Me</span>
           - Who I am and what I'm passionate about
         </li>
-        <li>
-          <span>Contact</span>
-          - How to get ahold of me
-        </li>
       </ul>
     </div>
-
   </section>
 </template>
 
@@ -37,22 +40,9 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 10%;
-  margin-right: 10%;
+  justify-content: space-between;
   border-radius: 5px;
   width: max-content;
-
-  animation: fadein 1s;
-
-  @keyframes fadein {
-    from {
-      opacity: 0;
-    }
-
-    to {
-      opacity: 1;
-    }
-  }
 
   img {
     border-radius: 50%;
@@ -82,7 +72,5 @@ section {
       }
     }
   }
-
-
 }
 </style>

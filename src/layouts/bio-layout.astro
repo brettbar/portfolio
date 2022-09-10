@@ -1,0 +1,26 @@
+---
+const { frontmatter } = Astro.props;
+---
+
+<div class="bio-card">
+  <h1>
+    {frontmatter.title}
+  </h1>
+  <slot />
+</div>
+
+<style lang="scss" scoped>
+  div.bio-card {
+    border: 2px solid #ffa140;
+    border-radius: 5px;
+    padding: 1rem;
+    padding-top: 0;
+    margin: 1rem;
+    width: 40%;
+
+    h1 {
+      border-bottom: 1px solid white;
+    }
+  }
+ 
+</style>

@@ -41,5 +41,7 @@ export const imageLookup = (lookup: string) => {
     case 'CMake': return 'cmake.png';
     case 'Makefile': return 'make.png';
     case 'Dart': return 'dart.png';
+    case 'GitHub': return 'github.png';
+    case 'LinkedIn': return 'linkedin.png';
   }
 }

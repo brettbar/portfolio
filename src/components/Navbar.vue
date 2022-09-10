@@ -8,7 +8,6 @@ const pages = [
   { route: '/projects', title: 'Projects', },
   { route: '/skills', title: 'Skills', },
   { route: '/aboutme', title: 'About Me', },
-  { route: '/', title: 'Contact', },
 ];
 
 const isSelected = (index: number): string => index === props.selectedPage ? 'selected-link' : '';
@@ -27,18 +26,6 @@ const isSelected = (index: number): string => index === props.selectedPage ? 'se
   display: flex;
   justify-content: flex-end;
   transform: skew(-.312rad);
-
-  animation: fadein 1s;
-
-  @keyframes fadein {
-    from {
-      opacity: 0;
-    }
-
-    to {
-      opacity: 1;
-    }
-  }
 
   a {
     padding: 1rem;

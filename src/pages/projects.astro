@@ -5,10 +5,14 @@ import HomeLayout from '../layouts/main.astro';
 import { Content as Portfolio } from '../content/projects/portfolio.md';
 import { Content as Game } from '../content/projects/game.md';
 import { Content as RomeTimeline } from '../content/projects/rome-timeline.md';
+import { Content as UnityGame } from '../content/projects/unity-game.md';
 ---
 
 <HomeLayout currPage={2}>
+  <h2>Current</h2>
   <Portfolio />
   <Game />
+  <h2>Past</h2>
   <RomeTimeline />
+  <UnityGame />
 </HomeLayout>

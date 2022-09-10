@@ -49,7 +49,7 @@ section.job {
   border: 2px solid #ffa140;
   border-radius: 5px;
   padding: 1rem;
-  padding-top: 0;
+  padding-top: 0.5rem;
   margin: 1rem;
   width: 40%;
 
