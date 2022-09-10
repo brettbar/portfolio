@@ -1,0 +1,50 @@
+---
+import HomeLayout from '../layouts/main.astro';
+import SkillsVue from '../components/Skills.vue';
+
+const languages = [
+  { name: 'TypeScript', level: 3 },
+  { name: 'JavaScript', level: 3 },
+  { name: 'C/C++', level: 3 },
+  { name: 'Golang', level: 3 },
+  { name: 'C#', level: 2 },
+  { name: 'Java', level: 2 },
+  { name: 'python', level: 2 },
+  { name: 'SQL', level: 2 },
+  { name: 'Ruby', level: 1 },
+  { name: 'Rust', level: 1 },
+  { name: 'Dart', level: 1 },
+];
+
+const frameworks = [
+  { name: 'Vue', level: 3 },
+  { name: 'WASM', level: 3 },
+  { name: 'Angular', level: 2 },
+  { name: 'Mocha', level: 2 },
+  { name: 'Unity', level: 2 },
+  { name: 'raylib', level: 2 },
+  { name: 'Electron', level: 2 },
+  { name: 'Xamarin', level: 1 },
+  { name: 'Flutter', level: 1 },
+  { name: 'Rails', level: 1 },
+  { name: 'OpenGL/GLSL', level: 1 },
+
+];
+
+const tools = [
+  { name: 'Linux', level: 3 },
+  { name: 'Vim', level: 3 },
+  { name: 'Docker', level: 2 },
+  { name: 'Bash', level: 2 },
+  { name: 'Git', level: 2 },
+  { name: 'CMake', level: 1 },
+  { name: 'Makefile', level: 1 },
+];
+
+---
+
+<HomeLayout currPage={3}>
+  <SkillsVue title="Languages" skills={languages}/>
+  <SkillsVue title="Frameworks/Technologies" skills={frameworks}/>
+  <SkillsVue title="Tools" skills={tools}/>
+</HomeLayout>

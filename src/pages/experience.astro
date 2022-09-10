@@ -1,0 +1,150 @@
+---
+import HomeLayout from '../layouts/main.astro';
+import JobVue from '../components/Job.vue';
+import { Job } from '../interfaces/Job.ts';
+
+const college: Job = {
+  place: 'Gonzaga University',
+  logo: 'gu.jpg',
+  time: '4 Years',
+  roles: [
+    { 
+      title: 'B.S. Computer Science',
+      time: '2016 -> 2020',
+      location: 'Spokane, WA',
+      description: 'These were some of the classes I learned the most in:',
+      duties: [
+        { description: 'Abstract Data Types and Algorithms', languages: ['C++'] },
+        { description: 'Computer Security', languages: ['python', 'C'] },
+        { description: 'Database Management', languages: ['SQL', 'Java'] },
+        { description: 'Organization of Programming Languages', languages: ['python', 'Haskell'] },
+        { description: 'Web Development', languages: ['JS/TS', 'Angular'] },
+        { description: 'Advanced Algorithms', languages: ['python', 'C#'] },
+        { description: 'Software Engineering', languages: ['C#', 'Unity'] },
+        { description: 'Data Mining', languages: ['python'] },
+        { description: 'Operating Systems', languages: ['C'] },
+        { description: 'Computer Architecture and Assembly', languages: ['ARM'] },
+        { description: 'Computer Graphics', languages: ['JS'] },
+        { description: 'CS I (University of Washington) and II', languages: ['Java', 'C++'] },
+        { description: 'Object-Oriented Programming', languages: ['Java'] },
+      ]
+    }
+  ],
+};
+
+const hp: Job = {
+  place: 'HP Inc.',
+  logo: 'hp.png',
+  time: '1 Year',
+  roles: [
+    {
+      title: 'Software Engineering Intern - Hardware R&D',
+      time: 'May 2019 -> Aug 2019',
+      location: 'Boise, ID',
+      description: '',
+      duties: [
+        { 
+          description: 'Developed project wizard for Electrical Engineers to test formatter and control panels boards.', 
+          languages: [ 'TS', 'Angular', 'Electron' ]
+        },
+      ]
+    },
+    {
+      title: 'Software Engineering Intern - Firmware Embedded Webserver',
+      time: 'Sep 2019 -> May 2020',
+      location: 'Remote',
+      description:'',
+      duties: [
+        { 
+          description: 'Developed web components for a firmware embedded web server', 
+          languages: ['TS', 'Angular'] 
+        }
+      ]
+    }
+  ],
+};
+
+const kochava: Job = {
+  place: 'Kochava Inc.',
+  logo: 'kochava.jpeg',
+  time: '2 Years',
+  roles: [
+    {
+      title: 'Software Engineer',
+      time: 'June 2020 - July 2022',
+      location: 'Sandpoint, ID & Remote',
+      description: '',
+      duties: [
+        {
+          description: `
+            Maintained and updated web sdk, and developed full project redesign with
+            TypeScript, webpack/vite, including thorough unit/functional tests with mocha/chai.
+        `,
+          languages: ['TS', 'JS', 'Mocha']
+        },
+        {
+          description: `
+            Created support for our web sdk with popular web frameworks like React, Angular, Vue,
+            along with associated unit testing.
+          `,
+          languages: ['Vue', 'React', 'Angular', 'NodeJS']
+        },
+        {
+          description: `
+            Created a large, dockerized proof-of-concept SDK using Go and Web Assembly.
+          `,
+          languages: ['Golang', 'WASM']
+        },
+        {
+          description: `
+            Developed two integral in-house testing applications for iOS and Android,
+            initially created with Xamarin and later rewritten with Flutter.
+          `,
+          languages: ['Flutter', 'Xamarin', 'Dart', 'C#']
+        },
+        {
+          description: `
+            Created a test application for our .NET SDK that took advantage of an
+            sdk-agnostic test api.
+          `,
+          languages: ['C#']
+        },
+        {
+          description: `
+            Developed a proof-of-concept set of web-apps for a new business venture,
+            including a query builder and simple query language parser.
+          `,
+          languages: ['Vue', 'TS', 'Golang']
+        }
+      ]
+    } 
+  ]
+};
+
+const twobarrels: Job = {
+  place: 'Two Barrels LLC',
+  logo: 'twobarrels.jpeg',
+  time: '1 Month',
+  roles: [
+    {
+      title: 'Software Engineer',
+      time: 'Aug 2022 -> Present',
+      location: 'Spokane, WA & Remote',
+      description: '',
+      duties: [
+        { 
+          description: 'Learning the ropes, completing tickets on the operations team.',
+          languages: [ 'Ruby', 'Rails', 'Vue', 'JS' ]
+        }
+      ]
+    }
+  ]
+}
+---
+
+<HomeLayout currPage={1}>
+  <JobVue job={twobarrels} />
+  <JobVue job={kochava} />
+  <JobVue job={hp} />
+  <JobVue job={college} />
+</HomeLayout>

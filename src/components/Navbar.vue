@@ -4,12 +4,12 @@ const props = defineProps<{ selectedPage: number }>();
 
 const pages = [
   { route: '/', title: 'Home', },
+  { route: '/experience', title: 'Experience', },
   { route: '/projects', title: 'Projects', },
-  { route: '/', title: 'Experience', },
-  { route: '/', title: 'About Me', },
+  { route: '/skills', title: 'Skills', },
+  { route: '/aboutme', title: 'About Me', },
   { route: '/', title: 'Contact', },
-]
-
+];
 
 const isSelected = (index: number): string => index === props.selectedPage ? 'selected-link' : '';
 </script>
@@ -22,7 +22,7 @@ const isSelected = (index: number): string => index === props.selectedPage ? 'se
   </nav>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .navbar {
   display: flex;
   justify-content: flex-end;
@@ -44,7 +44,7 @@ const isSelected = (index: number): string => index === props.selectedPage ? 'se
     padding: 1rem;
     margin: 1rem;
     border-radius: 5px;
-    border: 2px solid #ffa150;
+    border: 2px solid #ffa140;
     min-width: 70px;
     text-align: center;
 
@@ -57,7 +57,7 @@ const isSelected = (index: number): string => index === props.selectedPage ? 'se
   }
 
   .selected-link {
-    background-color: #ffa150;
+    background-color: #ffa140;
   }
 }
 </style>

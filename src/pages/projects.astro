@@ -1,25 +1,14 @@
 ---
 import HomeLayout from '../layouts/main.astro';
-import Projects from '../components/Projects.vue';
+
+/* In the future, figure out how to do this programmatically  */
+import { Content as Portfolio } from '../content/projects/portfolio.md';
+import { Content as Game } from '../content/projects/game.md';
+import { Content as RomeTimeline } from '../content/projects/rome-timeline.md';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
-		<title>Astro</title>
-
-    <style>
-    </style>
-	</head>
-	<body>
-    <HomeLayout currPage={1}>
-      <Projects />
-    </HomeLayout>
-	</body>
-</html>
+<HomeLayout currPage={2}>
+  <Portfolio />
+  <Game />
+  <RomeTimeline />
+</HomeLayout>

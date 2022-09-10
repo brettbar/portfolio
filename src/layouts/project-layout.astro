@@ -1,0 +1,54 @@
+---
+
+import TagVue from '../components/Tag.vue';
+
+const { frontmatter } = Astro.props;
+---
+
+<div class="project">
+  <div class="header">
+    <h1>{frontmatter.title} </h1>
+
+    { 
+      (frontmatter.link) && 
+      (<a href="frontmatter.link" target="_blank" rel="noopener noreferrer"> 
+        <img src="link.svg"/>
+      </a>)
+    }
+  </div>
+
+  <div class="content">
+    <slot />
+  </div>
+
+  <div class="tags">
+    {frontmatter.tags.map(tag => 
+      <TagVue tag={tag}/>
+    )}
+  </div>
+
+</div>
+
+<style lang="scss" scoped>
+  div.project {
+    max-width: 40%;
+    padding: 1rem;
+    padding-top: 0;
+    margin: 1rem;
+    border: 2px solid #ffa140;
+    border-radius: 5px;
+
+    div.header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid white;
+    }
+
+
+    div.tags {
+      display: flex;
+      align-items: center;
+    }
+  }
+</style>

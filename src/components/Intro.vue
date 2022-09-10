@@ -5,29 +5,26 @@
   <section>
     <img src="me.png" />
     <div>
-      <h1>hi, i'm brett -
-        welcome to my portfolio site
+      <h1>Hi, I'm Brett -
+        Welcome to my portfolio site
       </h1>
-
+      <h2>What you'll find here:</h2>
       <ul>
         <li>
-          <h2>what you'll find here:</h2>
+          <span>Experience</span>
+          - A brief overview of my professional experience and education
         </li>
         <li>
-          <span>projects</span>
-          - what i've worked on in the past, and what i'm up to lately
+          <span>Projects</span>
+          - What I've worked on in the past, and what I'm up to lately
         </li>
         <li>
-          <span>experience</span>
-          - a brief overview of my professional experience and education
+          <span>About Me</span>
+          - Who I am and what I'm passionate about
         </li>
         <li>
-          <span>about me</span>
-          - who i am and what i'm passionate about
-        </li>
-        <li>
-          <span>projects</span>
-          - how to get ahold of me
+          <span>Contact</span>
+          - How to get ahold of me
         </li>
       </ul>
     </div>
@@ -40,7 +37,6 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
   margin-left: 10%;
   margin-right: 10%;
   border-radius: 5px;
@@ -65,12 +61,8 @@ section {
   }
 
   div {
-    border: 2px solid #ffa150;
+    border: 2px solid #ffa140;
     padding: 1rem;
-
-    * {
-      padding: 0.25rem;
-    }
 
     h1 {
       border-bottom: 1px solid white;
@@ -78,8 +70,12 @@ section {
 
     ul {
       list-style: none;
+      padding: 0;
+      margin: 0;
 
       li {
+        margin-bottom: 8px;
+
         span {
           font-weight: bold;
         }
