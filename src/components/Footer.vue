@@ -5,7 +5,6 @@ import TagVue from './Tag.vue';
 
 <template>
   <footer class="contact">
-    <p>Contact Me:</p>
     <span>
       brettbarinaga@gmail.com
     </span>
@@ -15,7 +14,7 @@ import TagVue from './Tag.vue';
     </a>
 
     <a href="https://www.linkedin.com/in/brett-barinaga/">
-      <TagVue tag="LinkedIn" />
+      <TagVue tag="Linkedin" />
     </a>
   </footer>
 </template>
@@ -26,20 +25,14 @@ footer.contact {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 650px;
+  margin: 0;
 
   background-color: black;
-  border: 2px solid #ffa140;
-  border-radius: 5px;
-  padding: 8px;
 
-  p {
-    width: max-content;
-  }
 
   span {
     background-color: #222222;
-    padding: 10px;
+    padding: 8px;
     border-radius: 5px;
     margin: 8px;
   }

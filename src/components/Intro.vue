@@ -3,7 +3,7 @@
 
 <template>
   <section>
-    <img src="me.png" />
+    <img src="/images/me.png" />
     <div>
       <h1>Hi, I'm Brett -
         Welcome to my portfolio site
@@ -42,7 +42,6 @@ section {
   align-items: center;
   justify-content: space-between;
   border-radius: 5px;
-  width: max-content;
 
   img {
     border-radius: 50%;

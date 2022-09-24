@@ -51,7 +51,7 @@ section.job {
   padding: 1rem;
   padding-top: 0.5rem;
   margin: 1rem;
-  width: 40%;
+  width: 800px;
 
   div.banner {
     div.header {

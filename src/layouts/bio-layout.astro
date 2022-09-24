@@ -10,13 +10,17 @@ const { frontmatter } = Astro.props;
 </div>
 
 <style lang="scss" scoped>
+  img {
+    max-width: 200px;
+  }
+
   div.bio-card {
     border: 2px solid #ffa140;
     border-radius: 5px;
     padding: 1rem;
     padding-top: 0;
     margin: 1rem;
-    width: 40%;
+    max-width: 800px;
 
     h1 {
       border-bottom: 1px solid white;

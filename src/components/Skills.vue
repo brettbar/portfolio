@@ -33,8 +33,8 @@ div.rankings {
   padding: 1rem;
   padding-top: 0;
   margin: 1rem;
-  width: min-content;
-  min-width: 80%;
+  max-width: 800px;
+  min-width: 600px;
 
   div.tags {
     display: flex;

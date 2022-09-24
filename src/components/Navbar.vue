@@ -24,16 +24,17 @@ const isSelected = (index: number): string => index === props.selectedPage ? 'se
 <style lang="scss" scoped>
 .navbar {
   display: flex;
-  justify-content: flex-end;
   transform: skew(-.312rad);
 
   a {
     padding: 1rem;
     margin: 1rem;
+    margin-bottom: 0;
     border-radius: 5px;
     border: 2px solid #ffa140;
     min-width: 70px;
     text-align: center;
+    white-space: nowrap;
 
     text-decoration: none;
     color: white;
