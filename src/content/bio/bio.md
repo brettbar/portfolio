@@ -8,10 +8,10 @@ title: 'Who I am'
 - I've lived all over the PNW (Oregon, Western & Eastern WA, North and South Idaho).
 - Have a ton of family in Idaho and Eastern WA, and plan on staying for the forseeable future.
 
-<div style="display: flex;">
-<img src="/images/pend-oreille.jpg" style="max-width: 400px;"/>
-<img src="/images/pacific-northwest-map.jpg" style="max-width: 400px;"/>
-</div>
+<!-- <div style="display: flex;"> -->
+<!-- <img src="/images/pend-oreille.jpg" style="max-width: 400px;"/> -->
+<!-- <img src="/images/pacific-northwest-map.jpg" style="max-width: 400px;"/> -->
+<!-- </div> -->
 
 ## Whats important to me
 - My Roman Catholic faith.
@@ -30,12 +30,6 @@ orders of magnitudes slower and worse than it should.
   prefer Vim (with plugins) and the terminal for 90% of projects.
 - Privacy-respecting Free and Open-source Software (FOSS), GNU/Linux all day everyday.
 
-## My heroes
-- Christ 
-- My Parents 
-- My Grandparents
-- My soulmate Margaret
-
 ## Who I look up to in tech
 - My Dad, Louis Barinaga
 - Jonathan Blow
@@ -47,14 +41,14 @@ orders of magnitudes slower and worse than it should.
 - Bill Hewlett and Dave Packard
 
 ## What I enjoy
-- Being outside, swimming, hiking, walking around beautiful North Idaho
-- Reading/learning about History, specifically Ancient and Medieval
-- Hanging out with friends and family
-- Working on side [projects](./projects)
-- Cooking and grilling
-- Occasionally PC gaming (Escape from Tarkov, Dota, Paradox Games)
-- Lifting (still got a long way to go on that one)
-- Traveling, Spain and Italy have been my favorite trips
+- Being outside, swimming, hiking, walking around beautiful North Idaho.
+- Reading/learning about History, specifically Ancient and Medieval.
+- Hanging out with friends and family.
+- Working on side [projects](./projects).
+- Cooking and grilling.
+- Occasionally PC gaming (Escape from Tarkov, Dota, Paradox Games).
+- Lifting (still got a long way to go on that one).
+- Traveling, Spain and Italy have been my favorite trips.
 
 
 
