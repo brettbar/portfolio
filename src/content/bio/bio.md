@@ -44,7 +44,7 @@ orders of magnitudes slower and worse than it should.
 - Being outside, swimming, hiking, walking around beautiful North Idaho.
 - Reading/learning about History, specifically Ancient and Medieval.
 - Hanging out with friends and family.
-- Working on side [projects](./projects).
+- Working on side [projects](/projects).
 - Cooking and grilling.
 - Occasionally PC gaming (Escape from Tarkov, Dota, Paradox Games).
 - Lifting (still got a long way to go on that one).

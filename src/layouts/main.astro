@@ -60,16 +60,6 @@ const { currPage } = Astro.props;
 
     position: relative;
     display: inline-block;
-    //animation: fadein 0.25s;
-    //@keyframes fadein {
-    //  from {
-    //    opacity: 0;
-    //  }
-
-    //  to {
-    //    opacity: 1;
-    //  }
-    //}
 
     div.stars,
     div.twinkling {
@@ -108,14 +98,16 @@ const { currPage } = Astro.props;
       display: flex;
       flex-direction: column;
       align-items: center;
-    }
+      animation: fadein 1s;
+      @keyframes fadein {
+        from {
+          opacity: 0;
+        }
 
-    /* .footer { */
-    /*   position: fixed;  */
-    /*   bottom: 0; */
-    /*   left: calc(50vw - 325px); */
-    /*   right: 0; */
-    /*   height: 35px; */
-    /* } */
+        to {
+          opacity: 1;
+        }
+      }
+    }
   }
 </style>
