@@ -23,8 +23,6 @@ title: 'Who I am'
 - The less code to solve a problem the better, simple solutions are better than complex ones.
 - Performance isn't an afterthought, computer hardware is amazing yet most software runs
 orders of magnitudes slower and worse than it should.
-- Software bloat is a pervasive issue, the 'hundreds-of-megabytes-node_module'
-  anti-pattern must end.
 - In most cases as a programmer, you should be using the terminal/CLI to
   interface with your computer. While IDEs can have there place, I will always
   prefer Vim (with plugins) and the terminal for 90% of projects.
@@ -41,13 +39,12 @@ orders of magnitudes slower and worse than it should.
 - Bill Hewlett and Dave Packard
 
 ## What I enjoy
-- Being outside, swimming, hiking, walking around beautiful North Idaho.
+- Being outside, hiking, and fishing around beautiful North Idaho.
 - Reading/learning about History, specifically Ancient and Medieval.
 - Hanging out with friends and family.
 - Working on side [projects](/projects).
 - Cooking and grilling.
-- Occasionally PC gaming (Escape from Tarkov, Dota, Paradox Games).
-- Lifting (still got a long way to go on that one).
+- Occasional PC gaming.
 - Traveling, Spain and Italy have been my favorite trips.
 
 
