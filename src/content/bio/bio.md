@@ -15,7 +15,7 @@ title: 'Who I am'
 
 ## Whats important to me
 - My Roman Catholic faith.
-- My family and beautiful fiance Margaret.
+- My family and beautiful wife Margaret.
 - My Basque/Spanish heritage.
 - History, Theology, and Philosophy.
 
@@ -23,9 +23,6 @@ title: 'Who I am'
 - The less code to solve a problem the better, simple solutions are better than complex ones.
 - Performance isn't an afterthought, computer hardware is amazing yet most software runs
 orders of magnitudes slower and worse than it should.
-- In most cases as a programmer, you should be using the terminal/CLI to
-  interface with your computer. While IDEs can have there place, I will always
-  prefer Vim (with plugins) and the terminal for 90% of projects.
 - Privacy-respecting Free and Open-source Software (FOSS), GNU/Linux all day everyday.
 
 ## Who I look up to in tech
@@ -39,7 +36,7 @@ orders of magnitudes slower and worse than it should.
 - Bill Hewlett and Dave Packard
 
 ## What I enjoy
-- Being outside, hiking, and fishing around beautiful North Idaho.
+- Being outside, hiking, and fishing.
 - Reading/learning about History, specifically Ancient and Medieval.
 - Hanging out with friends and family.
 - Working on side [projects](/projects).

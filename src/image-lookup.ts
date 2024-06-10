@@ -1,5 +1,6 @@
 export const imageLookup = (lookup: string) => {
   switch (lookup) {
+    case 'Lua': return '/images/lua.png';
     case 'JS': return '/images/js.png';
     case 'JavaScript': return '/images/js.png';
     case 'TS': return '/images/typescript.png';
