@@ -4,18 +4,16 @@ title: 'Who I am'
 ---
 
 ## Where I've called home
-- Currently living in beautiful North Idaho, (Couer d'alene).
-- I've lived all over the PNW (Oregon, Western & Eastern WA, North and South Idaho).
-- Have a ton of family in Idaho and Eastern WA, and plan on staying for the forseeable future.
+- Currently living in beautiful North Idaho, (Coeur d'alene).
+- I've lived all over the PNW (Oregon, Western & Eastern WA, North and South Idaho)
 
-<!-- <div style="display: flex;"> -->
+<!-- <div style="display: flex; justify-content: center;"> -->
 <!-- <img src="/images/pend-oreille.jpg" style="max-width: 400px;"/> -->
-<!-- <img src="/images/pacific-northwest-map.jpg" style="max-width: 400px;"/> -->
 <!-- </div> -->
 
 ## Whats important to me
 - My Roman Catholic faith.
-- My family and beautiful wife Margaret.
+- My family, my beautiful wife Margaret and our baby girl Veronica
 - My Basque/Spanish heritage.
 - History, Theology, and Philosophy.
 
@@ -23,7 +21,6 @@ title: 'Who I am'
 - The less code to solve a problem the better, simple solutions are better than complex ones.
 - Performance isn't an afterthought, computer hardware is amazing yet most software runs
 orders of magnitudes slower and worse than it should.
-- Privacy-respecting Free and Open-source Software (FOSS), GNU/Linux all day everyday.
 
 ## Who I look up to in tech
 - My Dad, Louis Barinaga

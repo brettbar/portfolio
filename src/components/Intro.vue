@@ -47,15 +47,12 @@ section {
     border-radius: 50%;
     margin: 4rem;
     width: 50%;
+    width: 200px;
   }
 
   div {
     border: 2px solid #ffa140;
     padding: 1rem;
-
-    h1 {
-      border-bottom: 1px solid white;
-    }
 
     ul {
       list-style: none;

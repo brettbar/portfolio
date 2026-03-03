@@ -19,10 +19,6 @@ defineProps<{
     <div class="tags">
       <Tag v-for="skill in skills.filter(s => s.level === 2)" :tag="skill.name" />
     </div>
-    <h2>Novice</h2>
-    <div class="tags">
-      <Tag v-for="skill in skills.filter(s => s.level === 1)" :tag="skill.name" />
-    </div>
   </div>
 </template>
 

@@ -38,6 +38,18 @@ const hp: Job = {
   time: '1 Year',
   roles: [
     {
+      title: 'Software Engineering Intern - Firmware Embedded Webserver',
+      time: 'Sep 2019 -> May 2020',
+      location: 'Remote',
+      description:'',
+      duties: [
+        { 
+          description: 'Developed web components for a firmware embedded web server', 
+          languages: ['TS', 'Angular'] 
+        }
+      ]
+    },
+    {
       title: 'Software Engineering Intern - Hardware R&D',
       time: 'May 2019 -> Aug 2019',
       location: 'Boise, ID',
@@ -49,18 +61,6 @@ const hp: Job = {
         },
       ]
     },
-    {
-      title: 'Software Engineering Intern - Firmware Embedded Webserver',
-      time: 'Sep 2019 -> May 2020',
-      location: 'Remote',
-      description:'',
-      duties: [
-        { 
-          description: 'Developed web components for a firmware embedded web server', 
-          languages: ['TS', 'Angular'] 
-        }
-      ]
-    }
   ],
 };
 
@@ -121,11 +121,35 @@ const kochava: Job = {
   ]
 };
 
-const twobarrels: Job = {
-  place: 'Two Barrels LLC',
-  logo: '/images/twobarrels.jpeg',
-  time: '2 Years',
+const corptools: Job = {
+  place: 'Corporate Tools LLC',
+  logo: '/images/corptools.png',
+  time: '3.5 Years',
   roles: [
+    {
+      title: 'Software Engineering Manager M1',
+      time: 'Feb 2025 -> Present',
+      location: 'Spokane, WA & Remote',
+      description:'',
+      duties: [
+        { 
+          description: 'Currently lead a software team supporting a variety of legal products, such as trademark products, a legal-subscription service, and a brand monitoring service', 
+          languages: ['Golang', 'Ruby', 'Rails', 'Vue', 'JS'] 
+        }
+      ]
+    },
+    {
+      title: 'Software Engineering - Tech Lead',
+      time: 'May 2023 -> Feb 2025',
+      location: 'Spokane, WA & Remote',
+      description:'',
+      duties: [
+        { 
+          description: 'Led a team of engineers, developing several product expansions in the trademark space, mostly focused on a new trademark monitoring service, written in Go', 
+          languages: ['Golang', 'Ruby', 'Rails', 'Vue', 'JS'] 
+        }
+      ]
+    },
     {
       title: 'Software Engineer - Operations',
       time: 'Aug 2022 -> May 2023',
@@ -138,25 +162,13 @@ const twobarrels: Job = {
         }
       ]
     },
-    {
-      title: 'Software Engineering - Tech Lead',
-      time: 'May 2023 -> Present',
-      location: 'Spokane, WA & Remote',
-      description:'',
-      duties: [
-        { 
-          description: 'Leading a team of 3 engineers, developing an independent monitoring project for the company.', 
-          languages: ['Golang', 'Ruby', 'Rails', 'Vue', 'JS'] 
-        }
-      ]
-    }
   ]
 }
 
 ---
 
 <HomeLayout currPage={1}>
-  <JobVue job={twobarrels} />
+  <JobVue job={corptools} />
   <JobVue job={kochava} />
   <JobVue job={hp} />
   <JobVue job={college} />
