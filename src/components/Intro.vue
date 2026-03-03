@@ -5,32 +5,16 @@
   <section>
     <img src="/images/me.png" />
     <div>
-      <h1>Hi, I'm Brett -
-        Welcome to my portfolio site
+      <h1>Hi, I'm Brett.
       </h1>
-      <h2>What you'll find here:</h2>
-      <ul>
-        <li>
-          <span>Home</span>
-          - This page: Intro and how to contact me
-        </li>
-        <li>
-          <span>Experience</span>
-          - A brief overview of my professional experience and education
-        </li>
-        <li>
-          <span>Projects</span>
-          - What I've worked on in the past, and what I'm up to lately
-        </li>
-        <li>
-          <span>Skills</span>
-          - What I've learned and can bring to the table
-        </li>
-        <li>
-          <span>About Me</span>
-          - Who I am and what I'm passionate about
-        </li>
-      </ul>
+      <h2>
+        Welcome to my portfolio site
+      </h2>
+      <p>
+        Software Engineering Manager with nearly 6 years of experience building robust enterprise software. 
+        Focused on strong technical fundamentals, systems design, leading teams of skilled engineers, 
+        collaborating with business stakeholders and delivering valuable engineering solutions to clients.
+      </p>
     </div>
   </section>
 </template>
@@ -53,20 +37,8 @@ section {
   div {
     border: 2px solid #ffa140;
     padding: 1rem;
-
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-
-      li {
-        margin-bottom: 8px;
-
-        span {
-          font-weight: bold;
-        }
-      }
-    }
+    width: 500px;
+    
   }
 }
 </style>

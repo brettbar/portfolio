@@ -7,26 +7,30 @@ const languages = [
   { name: 'C/C++', level: 3 },
   { name: 'TypeScript', level: 3 },
   { name: 'JavaScript', level: 3 },
+  { name: 'Vue', level: 3 },
+  { name: 'Angular', level: 2 },
   { name: 'SQL', level: 2 },
   { name: 'Ruby', level: 2 },
+  { name: 'Rails', level: 2 },
   { name: 'python', level: 2 },
   { name: 'C#', level: 2 },
   { name: 'Java', level: 2 },
 ];
 
 const frameworks = [
-  { name: 'Vue', level: 3 },
-  { name: 'WASM', level: 2 },
-  { name: 'Angular', level: 2 },
-  { name: 'Mocha', level: 2 },
   { name: 'Unity', level: 2 },
   { name: 'raylib', level: 3 },
-  { name: 'Electron', level: 1 },
-  { name: 'Xamarin', level: 1 },
-  { name: 'Flutter', level: 1 },
-  { name: 'Rails', level: 2 },
-  { name: 'OpenGL/GLSL', level: 1 },
-
+  { name: 'Postgres', level: 3 },
+  { name: 'OpenGL/GLSL', level: 2 },
+  { name: 'S3', level: 3 },
+  { name: 'SQS', level: 3 },
+  { name: 'OpenSearch', level: 2 },
+  { name: 'DynamoDB', level: 2 },
+  { name: 'RDS', level: 2 },
+  { name: 'Redis', level: 2 },
+  { name: 'Kafka', level: 2 },
+  { name: 'MongoDB', level: 2 },
+  { name: 'Flutter', level: 2 },
 ];
 
 const tools = [
@@ -34,15 +38,15 @@ const tools = [
   { name: 'Vim', level: 3 },
   { name: 'Docker', level: 2 },
   { name: 'Bash', level: 2 },
-  { name: 'Git', level: 2 },
-  { name: 'CMake', level: 1 },
-  { name: 'Makefile', level: 1 },
+  { name: 'Git', level: 3 },
+  { name: 'CMake', level: 2 },
+  { name: 'Makefile', level: 2 },
 ];
 
 ---
 
 <HomeLayout currPage={3}>
-  <SkillsVue title="Languages" skills={languages}/>
-  <SkillsVue title="Frameworks/Technologies" skills={frameworks}/>
+  <SkillsVue title="Languages/Frameworks" skills={languages}/>
+  <SkillsVue title="Technologies/Services" skills={frameworks}/>
   <SkillsVue title="Tools" skills={tools}/>
 </HomeLayout>

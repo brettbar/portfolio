@@ -44,5 +44,15 @@ export const imageLookup = (lookup: string) => {
     case 'Dart': return '/images/dart.png';
     case 'GitHub': return '/images/github.png';
     case 'Linkedin': return '/images/linkedin.png';
+    case 'Postgres': return '/images/postgres.png';
+    case 'Redis': return '/images/redis.png';
+    case 'Kafka': return '/images/kafka.png';
+    case 'S3': return '/images/s3.png';
+    case 'SQS': return '/images/sqs.png';
+    case 'OpenSearch': return '/images/opensearch.png';
+    case 'DynamoDB': return '/images/dynamodb.png';
+    case 'RDS': return '/images/rds.png';
+    case 'MongoDB': return '/images/mongodb.png';
+
   }
 }

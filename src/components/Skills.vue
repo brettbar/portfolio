@@ -29,11 +29,12 @@ div.rankings {
   padding: 1rem;
   padding-top: 0;
   margin: 1rem;
-  max-width: 800px;
-  min-width: 600px;
+  width: 600px;
 
   div.tags {
     display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
   }
 }
 </style>
